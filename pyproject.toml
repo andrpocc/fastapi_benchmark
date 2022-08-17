@@ -17,8 +17,11 @@ uvicorn = "^0.18.2"
 fastapi-utils = "^0.2.1"
 requests = "^2.28.1"
 orjson = "^3.7.12"
+tqdm = "^4.64.0"
 
 [tool.poetry.dev-dependencies]
+pylint = "^2.14.5"
+black = "^22.6.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

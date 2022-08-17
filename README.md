@@ -3,17 +3,10 @@
 Comparison of the FastAPI application response rate:
 
 - Tortoise ORM:
-    - Base pydantic models
-    - Models with orjson
-    - Orjson response
+    - Base pydantic models **20.1s**
+    - Models with orjson **19.9s**
 - Tortoise values:
-    - Base pydantic models
-    - Models with orjson
-    - Orjson response
-- Asyncpg:
-    - Base pydantic models
-    - Models with orjson
-    - Orjson response
+    - Orjson response **3.2s**
 
 
 ### Install dependencies 
